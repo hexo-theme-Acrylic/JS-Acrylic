@@ -1,0 +1,116 @@
+INFO  Start processing
+INFO  Hexo is running at http://localhost:4000/ . Press Ctrl+C to stop.
+ERROR Asset render failed: css/index.css
+Error: /workspaces/theme-doc-Acrylic/hexo/node_modules/nib/lib/nib/vendor.styl:268:23
+   264|     if n == inherit or n == initial
+   265|       -ms-filter: n args
+   266|       filter: n args
+   267|     else
+   268|       val = round(n * 100)
+------------------------------^
+   269|       if val == 100
+   270|         -ms-filter: none args
+   271|         filter: none args
+
+cannot perform '' * 100
+    at opacity() (/workspaces/theme-doc-Acrylic/hexo/node_modules/nib/lib/nib/vendor.styl:262:1)
+    at "100%" (/workspaces/theme-doc-Acrylic/hexo/themes/Acrylic/source/css/_global/function.styl:221:3)
+
+    at String.operate (/workspaces/theme-doc-Acrylic/hexo/node_modules/stylus/lib/nodes/node.js:236:15)
+    at String.operate (/workspaces/theme-doc-Acrylic/hexo/node_modules/stylus/lib/nodes/string.js:145:37)
+    at Evaluator.visitBinOp (/workspaces/theme-doc-Acrylic/hexo/node_modules/stylus/lib/visitor/evaluator.js:581:28)
+    at Visitor.visit (/workspaces/theme-doc-Acrylic/hexo/node_modules/stylus/lib/visitor/index.js:28:40)
+    at Evaluator.visit (/workspaces/theme-doc-Acrylic/hexo/node_modules/stylus/lib/visitor/evaluator.js:160:18)
+    at Evaluator.visitExpression (/workspaces/theme-doc-Acrylic/hexo/node_modules/stylus/lib/visitor/evaluator.js:644:26)
+    at Visitor.visit (/workspaces/theme-doc-Acrylic/hexo/node_modules/stylus/lib/visitor/index.js:28:40)
+    at Evaluator.visit (/workspaces/theme-doc-Acrylic/hexo/node_modules/stylus/lib/visitor/evaluator.js:160:18)
+    at Evaluator.visitExpression (/workspaces/theme-doc-Acrylic/hexo/node_modules/stylus/lib/visitor/evaluator.js:644:26)
+    at Visitor.visit (/workspaces/theme-doc-Acrylic/hexo/node_modules/stylus/lib/visitor/index.js:28:40)
+    at Evaluator.visit (/workspaces/theme-doc-Acrylic/hexo/node_modules/stylus/lib/visitor/evaluator.js:160:18)
+    at Evaluator.visitExpression (/workspaces/theme-doc-Acrylic/hexo/node_modules/stylus/lib/visitor/evaluator.js:644:26)
+    at Visitor.visit (/workspaces/theme-doc-Acrylic/hexo/node_modules/stylus/lib/visitor/index.js:28:40)
+    at Evaluator.visit (/workspaces/theme-doc-Acrylic/hexo/node_modules/stylus/lib/visitor/evaluator.js:160:18)
+    at Evaluator.visitCall (/workspaces/theme-doc-Acrylic/hexo/node_modules/stylus/lib/visitor/evaluator.js:506:19)
+    at Visitor.visit (/workspaces/theme-doc-Acrylic/hexo/node_modules/stylus/lib/visitor/index.js:28:40)
+    at Evaluator.visit (/workspaces/theme-doc-Acrylic/hexo/node_modules/stylus/lib/visitor/evaluator.js:160:18)
+    at Evaluator.visitExpression (/workspaces/theme-doc-Acrylic/hexo/node_modules/stylus/lib/visitor/evaluator.js:644:26)
+    at Visitor.visit (/workspaces/theme-doc-Acrylic/hexo/node_modules/stylus/lib/visitor/index.js:28:40)
+    at Evaluator.visit (/workspaces/theme-doc-Acrylic/hexo/node_modules/stylus/lib/visitor/evaluator.js:160:18)
+    at Evaluator.visitIdent (/workspaces/theme-doc-Acrylic/hexo/node_modules/stylus/lib/visitor/evaluator.js:551:22)
+    at Visitor.visit (/workspaces/theme-doc-Acrylic/hexo/node_modules/stylus/lib/visitor/index.js:28:40)
+ERROR Asset render failed: css/index.css
+Error: /workspaces/theme-doc-Acrylic/hexo/node_modules/nib/lib/nib/vendor.styl:268:23
+   264|     if n == inherit or n == initial
+   265|       -ms-filter: n args
+   266|       filter: n args
+   267|     else
+   268|       val = round(n * 100)
+------------------------------^
+   269|       if val == 100
+   270|         -ms-filter: none args
+   271|         filter: none args
+
+cannot perform '' * 100
+    at opacity() (/workspaces/theme-doc-Acrylic/hexo/node_modules/nib/lib/nib/vendor.styl:262:1)
+    at "100%" (/workspaces/theme-doc-Acrylic/hexo/themes/Acrylic/source/css/_global/function.styl:221:3)
+
+    at String.operate (/workspaces/theme-doc-Acrylic/hexo/node_modules/stylus/lib/nodes/node.js:236:15)
+    at String.operate (/workspaces/theme-doc-Acrylic/hexo/node_modules/stylus/lib/nodes/string.js:145:37)
+    at Evaluator.visitBinOp (/workspaces/theme-doc-Acrylic/hexo/node_modules/stylus/lib/visitor/evaluator.js:581:28)
+    at Visitor.visit (/workspaces/theme-doc-Acrylic/hexo/node_modules/stylus/lib/visitor/index.js:28:40)
+    at Evaluator.visit (/workspaces/theme-doc-Acrylic/hexo/node_modules/stylus/lib/visitor/evaluator.js:160:18)
+    at Evaluator.visitExpression (/workspaces/theme-doc-Acrylic/hexo/node_modules/stylus/lib/visitor/evaluator.js:644:26)
+    at Visitor.visit (/workspaces/theme-doc-Acrylic/hexo/node_modules/stylus/lib/visitor/index.js:28:40)
+    at Evaluator.visit (/workspaces/theme-doc-Acrylic/hexo/node_modules/stylus/lib/visitor/evaluator.js:160:18)
+    at Evaluator.visitExpression (/workspaces/theme-doc-Acrylic/hexo/node_modules/stylus/lib/visitor/evaluator.js:644:26)
+    at Visitor.visit (/workspaces/theme-doc-Acrylic/hexo/node_modules/stylus/lib/visitor/index.js:28:40)
+    at Evaluator.visit (/workspaces/theme-doc-Acrylic/hexo/node_modules/stylus/lib/visitor/evaluator.js:160:18)
+    at Evaluator.visitExpression (/workspaces/theme-doc-Acrylic/hexo/node_modules/stylus/lib/visitor/evaluator.js:644:26)
+    at Visitor.visit (/workspaces/theme-doc-Acrylic/hexo/node_modules/stylus/lib/visitor/index.js:28:40)
+    at Evaluator.visit (/workspaces/theme-doc-Acrylic/hexo/node_modules/stylus/lib/visitor/evaluator.js:160:18)
+    at Evaluator.visitCall (/workspaces/theme-doc-Acrylic/hexo/node_modules/stylus/lib/visitor/evaluator.js:506:19)
+    at Visitor.visit (/workspaces/theme-doc-Acrylic/hexo/node_modules/stylus/lib/visitor/index.js:28:40)
+    at Evaluator.visit (/workspaces/theme-doc-Acrylic/hexo/node_modules/stylus/lib/visitor/evaluator.js:160:18)
+    at Evaluator.visitExpression (/workspaces/theme-doc-Acrylic/hexo/node_modules/stylus/lib/visitor/evaluator.js:644:26)
+    at Visitor.visit (/workspaces/theme-doc-Acrylic/hexo/node_modules/stylus/lib/visitor/index.js:28:40)
+    at Evaluator.visit (/workspaces/theme-doc-Acrylic/hexo/node_modules/stylus/lib/visitor/evaluator.js:160:18)
+    at Evaluator.visitIdent (/workspaces/theme-doc-Acrylic/hexo/node_modules/stylus/lib/visitor/evaluator.js:551:22)
+    at Visitor.visit (/workspaces/theme-doc-Acrylic/hexo/node_modules/stylus/lib/visitor/index.js:28:40)
+ERROR Asset render failed: css/index.css
+Error: /workspaces/theme-doc-Acrylic/hexo/node_modules/nib/lib/nib/vendor.styl:268:23
+   264|     if n == inherit or n == initial
+   265|       -ms-filter: n args
+   266|       filter: n args
+   267|     else
+   268|       val = round(n * 100)
+------------------------------^
+   269|       if val == 100
+   270|         -ms-filter: none args
+   271|         filter: none args
+
+cannot perform '' * 100
+    at opacity() (/workspaces/theme-doc-Acrylic/hexo/node_modules/nib/lib/nib/vendor.styl:262:1)
+    at "100%" (/workspaces/theme-doc-Acrylic/hexo/themes/Acrylic/source/css/_global/function.styl:221:3)
+
+    at String.operate (/workspaces/theme-doc-Acrylic/hexo/node_modules/stylus/lib/nodes/node.js:236:15)
+    at String.operate (/workspaces/theme-doc-Acrylic/hexo/node_modules/stylus/lib/nodes/string.js:145:37)
+    at Evaluator.visitBinOp (/workspaces/theme-doc-Acrylic/hexo/node_modules/stylus/lib/visitor/evaluator.js:581:28)
+    at Visitor.visit (/workspaces/theme-doc-Acrylic/hexo/node_modules/stylus/lib/visitor/index.js:28:40)
+    at Evaluator.visit (/workspaces/theme-doc-Acrylic/hexo/node_modules/stylus/lib/visitor/evaluator.js:160:18)
+    at Evaluator.visitExpression (/workspaces/theme-doc-Acrylic/hexo/node_modules/stylus/lib/visitor/evaluator.js:644:26)
+    at Visitor.visit (/workspaces/theme-doc-Acrylic/hexo/node_modules/stylus/lib/visitor/index.js:28:40)
+    at Evaluator.visit (/workspaces/theme-doc-Acrylic/hexo/node_modules/stylus/lib/visitor/evaluator.js:160:18)
+    at Evaluator.visitExpression (/workspaces/theme-doc-Acrylic/hexo/node_modules/stylus/lib/visitor/evaluator.js:644:26)
+    at Visitor.visit (/workspaces/theme-doc-Acrylic/hexo/node_modules/stylus/lib/visitor/index.js:28:40)
+    at Evaluator.visit (/workspaces/theme-doc-Acrylic/hexo/node_modules/stylus/lib/visitor/evaluator.js:160:18)
+    at Evaluator.visitExpression (/workspaces/theme-doc-Acrylic/hexo/node_modules/stylus/lib/visitor/evaluator.js:644:26)
+    at Visitor.visit (/workspaces/theme-doc-Acrylic/hexo/node_modules/stylus/lib/visitor/index.js:28:40)
+    at Evaluator.visit (/workspaces/theme-doc-Acrylic/hexo/node_modules/stylus/lib/visitor/evaluator.js:160:18)
+    at Evaluator.visitCall (/workspaces/theme-doc-Acrylic/hexo/node_modules/stylus/lib/visitor/evaluator.js:506:19)
+    at Visitor.visit (/workspaces/theme-doc-Acrylic/hexo/node_modules/stylus/lib/visitor/index.js:28:40)
+    at Evaluator.visit (/workspaces/theme-doc-Acrylic/hexo/node_modules/stylus/lib/visitor/evaluator.js:160:18)
+    at Evaluator.visitExpression (/workspaces/theme-doc-Acrylic/hexo/node_modules/stylus/lib/visitor/evaluator.js:644:26)
+    at Visitor.visit (/workspaces/theme-doc-Acrylic/hexo/node_modules/stylus/lib/visitor/index.js:28:40)
+    at Evaluator.visit (/workspaces/theme-doc-Acrylic/hexo/node_modules/stylus/lib/visitor/evaluator.js:160:18)
+    at Evaluator.visitIdent (/workspaces/theme-doc-Acrylic/hexo/node_modules/stylus/lib/visitor/evaluator.js:551:22)
+    at Visitor.visit (/workspaces/theme-doc-Acrylic/hexo/node_modules/stylus/lib/visitor/index.js:28:40)
