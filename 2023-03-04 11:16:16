@@ -1,0 +1,32 @@
+king@KINGWDY Acrylic-Promote % npm install --save hexo-tag-aplayer
+npm WARN deprecated source-map-url@0.4.1: See https://github.com/lydell/source-map-url#deprecated
+npm WARN deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+npm WARN deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+npm WARN deprecated source-map-resolve@0.5.3: See https://github.com/lydell/source-map-resolve#deprecated
+npm WARN deprecated chokidar@1.7.0: Chokidar 2 will break on node v14+. Upgrade to chokidar 3 with 15x less dependencies.
+npm WARN deprecated fsevents@1.2.13: fsevents 1 will break on node v14+ and could be using insecure binaries. Upgrade to fsevents 2.
+npm WARN deprecated hexo-bunyan@1.0.0: Please see https://github.com/hexojs/hexo-bunyan/issues/17
+npm WARN deprecated highlight.js@8.9.1: Version no longer supported. Upgrade to @latest
+npm WARN deprecated core-js@2.6.12: core-js@<3.23.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Some versions have web compatibility issues. Please, upgrade your dependencies to the actual version of core-js.
+npm ERR! code EACCES
+npm ERR! syscall open
+npm ERR! path /Users/king/Desktop/Acrylic-Promote/package-lock.json
+npm ERR! errno -13
+npm ERR! Error: EACCES: permission denied, open '/Users/king/Desktop/Acrylic-Promote/package-lock.json'
+npm ERR!  [Error: EACCES: permission denied, open '/Users/king/Desktop/Acrylic-Promote/package-lock.json'] {
+npm ERR!   errno: -13,
+npm ERR!   code: 'EACCES',
+npm ERR!   syscall: 'open',
+npm ERR!   path: '/Users/king/Desktop/Acrylic-Promote/package-lock.json'
+npm ERR! }
+npm ERR! 
+npm ERR! The operation was rejected by your operating system.
+npm ERR! It is likely you do not have the permissions to access this file as the current user
+npm ERR! 
+npm ERR! If you believe this might be a permissions issue, please double-check the
+npm ERR! permissions of the file and its containing directories, or try running
+npm ERR! the command again as root/Administrator.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/king/.npm/_logs/2023-03-04T03_15_05_492Z-debug-0.log
+king@KINGWDY Acrylic-Promote % 
