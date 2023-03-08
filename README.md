@@ -15,3 +15,4 @@ https://cdnjs.moezz.cn/
 5.Gravatar镜像加速
 https://gravatar.moezz.cn/avatar/
 
+6.https://cdn.cmds.run/
